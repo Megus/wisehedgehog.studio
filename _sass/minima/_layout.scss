@@ -359,6 +359,7 @@
   height: 40vw;
   @include media-query($on-palm) {
     height: 100vw;
+    background-size: cover;
   }
 }
 

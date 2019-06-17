@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="home-cover">&nbsp;</div>
+    <h1 class="page-heading">Wise Hedgehog Studio</h1>
+
+    <p>We love creating fun games and useful apps</p>
+
+    <h2>Our works</h2>
+
+    {%- if site.projects.size > 0 -%}
+      <div class="portfolio">
+        {%- assign ordered_projects = site.projects | sort:"order" -%}
+        {%- for project in ordered_projects -%}
+        <div class="portfolio-project">
+          <a href="{{ project.url | relative_url }}">
+            <div class="portfolio-project-cover" style="background-image: url({{ project.image }})">
+              <div class="portfolio-project-overlay">
+                <div class="portfolio-project-title">
+                  <h3>{{ project.title | escape }}</h3>
+                  <p>{{ project.description | escape }}</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+</div>

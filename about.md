@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about
 ---
 
 Wise Hedgehog Studio is a small indie software development team. We like to create games and mobile applications. Besides to working on our own projects we are available for contract work too. We have expertise in:

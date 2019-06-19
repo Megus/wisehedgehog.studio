@@ -5,7 +5,11 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a href="{{ "/" | relative_url }}">
       <img class="site-logo" src="/assets/wh-logo.png" />
+      {%- if page.title -%}
+      <span class="site-title">Wise Hedgehog Studio</span>
+      {%- endif -%}
     </a>
+    
 
     {%- if page_paths -%}
       <nav class="site-nav">

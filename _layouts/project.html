@@ -3,12 +3,31 @@ layout: default
 ---
 
 <article class="post">
+  <div class="project-cover" style="background-image: url({{ page.cover }})">&nbsp;</div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+  <div class="project-header">
+    <div class="project-icon">
+      <div class="portfolio-project-cover" style="background-image: url({{ page.icon }})"></div>
+    </div>
+      
+    <div class="project-description"><div style="margin: 15px;">
+      <header><h1>{{ page.title | escape }}</h1></header>
+      <p class="project-date">Release date: {{ page.release_date | escape }}</p>
+      <p>{{ page.description | escape }}</p>
+      {%- if page.itch_id -%}
+      <iframe frameborder="0" src="https://itch.io/embed/{{ page.itch_id }}?dark=true" width="100%"></iframe>
+      {%- endif -%}
+      {%- if page.apple_url -%}
+      <div>
+        <a href="{{ page.apple_url }}"><img height="60px" style="margin-bottom: 8px;" src="/assets/store-apple-badge.png" /></a>
+        &nbsp;
+        <a href="{{ page.google_url }}"><img height="61px" style="margin-bottom: 8px;" src="/assets/store-google-badge.png" /></a>
+      </div>
+      {%- endif -%}
+    </div></div>
+  </div>
 
-  <div class="post-content">
+  <div class="project-content">
     {{ content }}
   </div>
 

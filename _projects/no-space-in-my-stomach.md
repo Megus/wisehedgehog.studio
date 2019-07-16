@@ -4,7 +4,9 @@ title: "No Space In My Stomach"
 description: "A puzzle platformer game about an extraterrestrial snail Stewart"
 permalink: /no-space-in-my-stomach
 icon: /assets/no-space-in-my-stomach-icon.jpg
-cover: /assets/no-space-in-my-stomach-cover.jpg
+image: /assets/no-space-in-my-stomach-cover.jpg
+seo:
+  type: WebPage
 order: 4
 release_date: "2018"
 itch_id: 291867

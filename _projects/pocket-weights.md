@@ -4,9 +4,11 @@ title: "Pocket Weights"
 description: "A physics puzzle in 2017?"
 permalink: /pocket-weights
 icon: /assets/pocket-weights-icon.jpg
-cover: /assets/pocket-weights-cover.jpg
+image: /assets/pocket-weights-cover.jpg
 order: 1
 release_date: "2017"
+seo:
+  type: WebPage
 apple_url: https://itunes.apple.com/us/app/pocket-weights/id1275184280?ls=1&mt=8
 google_url: https://play.google.com/store/apps/details?id=studio.wisehedgehog.pocketweights
 ---

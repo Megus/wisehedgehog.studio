@@ -4,8 +4,10 @@ title: "Good Hamster — Dead Hamster"
 description: "A mix of cellular automaton fun and strategy"
 permalink: /good-hamster-dead-hamster
 icon: /assets/ghdh-icon.jpg
-cover: /assets/ghdh-cover.jpg
+image: /assets/ghdh-cover.jpg
 order: 3
+seo:
+  type: WebPage
 release_date: "2018"
 itch_id: 249227
 ---

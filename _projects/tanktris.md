@@ -3,8 +3,10 @@ layout: project
 title: "Tanktris"
 description: "Tetris + Battle City? Why not!"
 permalink: /tanktris
+seo:
+  type: WebPage
 icon: /assets/tanktris-icon.jpg
-cover: /assets/tanktris-cover.jpg
+image: /assets/tanktris-cover.jpg
 order: 2
 release_date: "2018"
 itch_id: 249087
